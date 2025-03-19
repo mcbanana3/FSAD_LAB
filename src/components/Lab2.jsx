@@ -1,6 +1,7 @@
 import React from 'react'
 import rose from '/rose.jpg'
-import './lab2.css'
+import './Lab2.css'
+
 const Lab2 = () => {
   return (
     <div class="container">
