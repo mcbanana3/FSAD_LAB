@@ -1,0 +1,50 @@
+.grid-container{
+    display: grid;
+    border: 1px solid green;
+    grid-row: 25% 25% 25% 25%;
+    grid-column: 25% 25% 25% 25%;
+    gap:1px;
+    width:100vw;
+}
+.grid-header{
+    background-color: orangered;
+    height: 25vh;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+.sb1{
+    background-color: rgb(0, 183, 255);
+    height: 25vh;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.sb2{
+    background-color: rgb(0, 183, 255);
+    height: 25vh;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.sb3{
+    background-color: rgb(0, 183, 255);
+    height: 25vh;
+    grid-row: 2/3;
+    grid-column: 3/4;   
+}
+.sb{
+    background-color: rgb(56, 230, 128);
+    height: 50vh;
+    grid-row: 2/4;
+    grid-column: 4/5;   
+}
+.grid-main{
+    background-color: rgb(229, 239, 91);
+    height: 25vh;
+    grid-row: 3/4;
+    grid-column: 1/4;   
+}
+.grid-footer{
+    background-color: rgb(53, 56, 239);
+    height: 25vh;
+    grid-row: 4/5;
+    grid-column: 1/5;   
+}
